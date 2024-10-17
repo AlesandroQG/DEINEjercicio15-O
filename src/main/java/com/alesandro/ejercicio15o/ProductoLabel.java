@@ -5,14 +5,14 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.layout.GridPane;
+import javafx.scene.layout.AnchorPane;
 
 import java.io.IOException;
 
 /**
  * Clase Controladora de Producto Label
  */
-public class ProductoLabel extends GridPane {
+public class ProductoLabel extends AnchorPane {
     @FXML // fx:id="imagenProductoImageView"
     private ImageView imagenProductoImageView; // Value injected by FXMLLoader
 
