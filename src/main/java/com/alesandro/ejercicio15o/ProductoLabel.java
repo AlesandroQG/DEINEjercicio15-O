@@ -26,7 +26,7 @@ public class ProductoLabel extends AnchorPane {
      * Constructor de la clase
      */
     public ProductoLabel() {
-        FXMLLoader fxmlLoader = new FXMLLoader(ProductoLabel.class.getResource("/com/alesandro/ejercicio15o/fxml/ProductoLabel.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(ProductoLabel.class.getResource("/fxml/ProductoLabel.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
         try {

@@ -6,7 +6,7 @@ La estructura del proyecto es la siguiente:
 - `src > main`:
   - `java > com.alesandro.ejercicio15o`:
     - `ProductoLabel.java`: Clase que controla los eventos de la ventana principal de la aplicación
-  - `resources`:
+  - `resources > com.alesandro.ejercicio15o`:
     - `fxml`:
       - `ProductoLabel.fxml`: Ventana principal de la aplicación
     - `images`: Imágenes de la aplicación
